@@ -16,21 +16,29 @@ var BeginningValue = CALCULATE(SUM('Mc D'[Revenue ($B)]),FILTER('Mc D','Mc D'[Ye
 RETURN
 POWER(EndingValue/BeginningValue,1/20)-1
 
+
 Current Ratio = DIVIDE(SUM('Mc D'[Total assets ($B)]),SUM('Mc D'[Total liabilities ($B)]))
+
 
 D/E Ratio = 
 
 var ShareholdersEquity = CALCULATE(SUM('Mc D'[Total assets ($B)])-SUM('Mc D'[Total liabilities ($B)]))
+
 RETURN
 DIVIDE(SUM('Mc D'[Total debt ($B)]),ShareholdersEquity)
 
+
 IDL Revenue = SUM('Mc D'[Revenue ($B)])*10/100
+
 
 IOM Revenue = SUM('Mc D'[Revenue ($B)])*49/100
 
+
 US Revenue = SUM('Mc D'[Revenue ($B)])* 41/100
 
+
 Market Price = DIVIDE(SUM('Mc D'[Market cap ($B)]),SUM('Mc D'[Shares Outstanding ($B)]))
+
 
 Profit = SUM('Mc D'[Revenue ($B)] ) - SUM('Mc D'[Earnings ($B)])
 
