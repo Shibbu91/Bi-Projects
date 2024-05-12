@@ -9,7 +9,9 @@ I have created a PowerPoint presentation and Power BI dashboard analyzing the fi
 **DAX Queries**:
 
 Compound Annual Growth Rate (CAGR) = 
+
 var EndingValue = CALCULATE(SUM('Mc D'[Revenue ($B)]),FILTER('Mc D','Mc D'[Year] = 2022))
+
 var BeginningValue = CALCULATE(SUM('Mc D'[Revenue ($B)]),FILTER('Mc D','Mc D'[Year] = 2002))
 RETURN
 POWER(EndingValue/BeginningValue,1/20)-1
@@ -17,6 +19,7 @@ POWER(EndingValue/BeginningValue,1/20)-1
 Current Ratio = DIVIDE(SUM('Mc D'[Total assets ($B)]),SUM('Mc D'[Total liabilities ($B)]))
 
 D/E Ratio = 
+
 var ShareholdersEquity = CALCULATE(SUM('Mc D'[Total assets ($B)])-SUM('Mc D'[Total liabilities ($B)]))
 RETURN
 DIVIDE(SUM('Mc D'[Total debt ($B)]),ShareholdersEquity)
