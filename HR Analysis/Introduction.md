@@ -1,4 +1,4 @@
-Intro: The HR department serves as the organizational backbone, managing recruitment, employee relations, and performance appraisal while bridging the gap between employees and management. It plays a pivotal role in fostering a healthy work environment and driving organizational success through strategic workforce management.
+**Intro**: The HR department serves as the organizational backbone, managing recruitment, employee relations, and performance appraisal while bridging the gap between employees and management. It plays a pivotal role in fostering a healthy work environment and driving organizational success through strategic workforce management.
 
 This dashboard provides a comprehensive overview of key metrics and trends impacting talent acquisition, retention, and employee engagement over the years.
 
