@@ -1,4 +1,5 @@
 **Intro**: McDonald’s Corporation is an American operator and franchisor of fast food restaurants represented worldwide and the biggest fast food company in the world. Founded in 1940 by Richard and Maurice MacDonald, the company has grown significantly and played a key role in shaping the fast food industry. The brand prides itself on providing consistent, fast, and affordable food. 
+
 I have created a PowerPoint presentation and Power BI dashboard analyzing the financial performance of McDonald's Corporation, the iconic fast-food giant, spanning the years from 2002 to 2022. Over the past two decades, McDonald's has been a cornerstone of the fast-food industry, serving millions of customers worldwide with its diverse menu and efficient service model. This dashboard offers a detailed insight into McDonald's financial journey, showcasing key metrics and trends that have shaped its growth and market position over time.
 
 **Dashboard**:
